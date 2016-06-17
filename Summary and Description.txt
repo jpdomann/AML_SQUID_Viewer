@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+Summary:
+This program loads data files acquired from the SQUID, and views the MH curve, MH error, and voltage vs position.
+
+Description:
+When the SQUID collects data, it generates a series of files with the form base_file_name.rso.ext, where multiples extensions (.ext) are generated. In order for this program to run, a folder of data files must first be assembled. In the folder, for each base_file_name, there must .raw, .data, and .ndat files. If all three of these files are not present at the time the user loads the data folder, the program will pause operation and allow no further action until a folder with the proper files has been loaded. 
+
+Installation Instructions:
+
+Option 1:
+	If you have a matlab installation (at least 2014a or newer), you can open the source code and run the AML_SQUID_Viewer script.
+	
+Option 2:
+	Open the folder labeled "for_redistribution" and select one of the MyAppInstaller files. The _web edition is a complete package, and can install with no internet connection. The _web file is smaller, but will download the matlab runtime engine during installation of the program. This requires an internet connection in order to complete.
+	
+Recomendation:
+=======
+Summary:
+This program loads data files acquired from the SQUID, and views the MH curve, MH error, and voltage vs position.
+
+Description:
+When the SQUID collects data, it generates a series of files with the form base_file_name.rso.ext, where multiples extensions (.ext) are generated. In order for this program to run, a folder of data files must first be assembled. In the folder, for each base_file_name, there must .raw, .data, and .ndat files. If all three of these files are not present at the time the user loads the data folder, the program will pause operation and allow no further action until a folder with the proper files has been loaded. 
+
+Installation Instructions:
+
+Option 1:
+	If you have a matlab installation (at least 2014a or newer), you can open the source code and run the AML_SQUID_Viewer script.
+	
+Option 2:
+	Open the folder labeled "for_redistribution" and select one of the MyAppInstaller files. The _web edition is a complete package, and can install with no internet connection. The _web file is smaller, but will download the matlab runtime engine during installation of the program. This requires an internet connection in order to complete.
+	
+Recomendation:
+>>>>>>> origin/master
+	If you are uncomfortable using matlab source files, just istall MyAppInstaller_mcr.exe, and you will be left with a traditional windows program. 

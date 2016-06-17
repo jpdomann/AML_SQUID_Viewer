@@ -1,0 +1,15 @@
+ANN This sequence calls other sequences
+ANN 
+TMP TEMP 298.000 10.000
+ANN 
+LG1 STARTLOG "C:\QdMpms\Data\Wei\2014-07-31 EB on isolated PMN-PT no Ti spontaneous in situ repeat\2014-07-31.env" 10000 16383 5 0
+ANN 
+WAI WAITFOR 10 0 1 298.0000 1 0
+DAT DATAFILE "C:\QdMpms\Data\Wei\2014-07-31 EB on isolated PMN-PT no Ti spontaneous in situ repeat\Ni-NiO_298K_SiO2_PMN-PT_5.0Tprebias_200V_Au_back"
+RUN RUN "C:\QdMpms\Data\Wei\2014-07-31 EB on isolated PMN-PT no Ti spontaneous in situ repeat\MHcurveUpTo100.seq"
+ANN 
+FLD FIELD 0.0 0 1
+TMP TEMP 298.000 10.000
+WAI WAITFOR 10 0 1 298.0000 1 0
+ANN 
+ANN 

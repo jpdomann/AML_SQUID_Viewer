@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+ant:
+<ant>
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution" />
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing" />
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution_files_only" />
+=======
+ant:
+<ant>
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution" />
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing" />
+  <mkdir dir="F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution_files_only" />
+>>>>>>> origin/master
+</ant>
+mcc -C -o AML_SQUID_Viewer -W WinMain:AML_SQUID_Viewer -T link:exe -d 'F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing' -v 'F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\view_SQUID_data.m' -a 'F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\subfunctions\starting_dir.txt' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange
+Bias\AML_SQUID_Viewer\Source Code" to Compiler path instance.] 
+Parsing file "F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\view_SQUID_data.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015a\toolbox\compiler\Resources\default_icon.ico to F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing\AML_SQUID_Viewer.exe.
+Attempting to embed the CTF archive into the application F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_testing\AML_SQUID_Viewer.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution\MyAppInstaller_web.exe.
+Self contained installer created at F:\Users\jpdomann\Documents\Sync Folder\Research\Exchange Bias\AML_SQUID_Viewer\Source Code\AML_SQUID_Viewer\for_redistribution\MyAppInstaller_mcr.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 25 seconds.
